@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@stylec.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.divinem.zkouseciprogram.VyberZakaFXMLController">
+   <children>
+      <Button layoutX="68.0" layoutY="243.0" mnemonicParsing="false" onAction="#vygenerovatStud" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Vygenerovat studenta" textFill="#11c1f3" />
+      <Button fx:id="dalsiBtn" layoutX="462.0" layoutY="309.0" mnemonicParsing="false" onAction="#dalsiNaZkouseni" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Další" textFill="#11c1f3" />
+      <Button fx:id="zpetBtn" layoutX="67.0" layoutY="309.0" mnemonicParsing="false" onAction="#zpatkyNaZacatek" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Zpět" textFill="#11c1f3" />
+      <ComboBox fx:id="studentiCB" layoutX="333.0" layoutY="187.0" prefWidth="150.0" promptText="Vyberte Studenta" style="-fx-background-color: #11c1f3;" styleClass="startovaciBtn" stylesheets="@stylec.css" />
+      <TextArea fx:id="genStudArea" editable="false" layoutX="333.0" layoutY="237.0" prefHeight="16.0" prefWidth="150.0" styleClass="startovaciBtn" stylesheets="@stylec.css" />
+      <Label layoutX="67.0" layoutY="191.0" text="Vybrat studenta" textFill="#11c1f3" />
+      <ComboBox fx:id="tridyCB" layoutX="333.0" layoutY="126.0" prefWidth="150.0" promptText="Vyberte třídu" style="-fx-background-color: #11c1f3;" styleClass="startovaciBtn" stylesheets="@stylec.css" />
+      <Button layoutX="68.0" layoutY="125.0" mnemonicParsing="false" onAction="#vybratTridu" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Vybrat Třídu" textFill="#11c1f3" />
+      <Button layoutX="67.0" layoutY="187.0" mnemonicParsing="false" onAction="#vybratStud" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Vybrat Studenta" textFill="#11c1f3" />
+      <Button layoutX="68.0" layoutY="74.0" mnemonicParsing="false" onAction="#vybratPredmet" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Vybrat Předmět" textFill="#11c1d3" />
+      <ComboBox fx:id="predmetyCB" layoutX="333.0" layoutY="74.0" prefWidth="150.0" promptText="Vyberte Předmět" style="-fx-background-color: #11c1f3;" styleClass="startovaciBtn" stylesheets="@stylec.css" />
+   </children>
+</AnchorPane>

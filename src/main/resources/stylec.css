@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.bodybg{
+    -fx-background-image: url("/obrazky/otaznik.jpg");
+    -fx-background-size: 100% 100%;
+} 
+
+.startovaciBtn{
+    -fx-background-color:  #212121;
+    -fx-border-color:  #feb916;
+    -fx-border-radius:  10px;
+    -fx-background-radius: 10px;
+    
+}

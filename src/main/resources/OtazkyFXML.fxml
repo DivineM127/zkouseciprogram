@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="764.0" styleClass="bodybg" stylesheets="@stylec.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.divinem.zkouseciprogram.OtazkyFXMLController">
+   <children>
+      <TextArea fx:id="otazkaArea" layoutX="122.0" layoutY="23.0" prefHeight="185.0" prefWidth="520.0" styleClass="startovaciBtn" stylesheets="@stylec.css" />
+      <Button fx:id="moznostA" layoutX="122.0" layoutY="350.0" mnemonicParsing="false" onAction="#vybratA" prefHeight="50.0" prefWidth="240.0" styleClass="startovaciBtn" stylesheets="@stylec.css" text="A" textFill="#11c1f3" />
+      <Button fx:id="moznostB" layoutX="402.0" layoutY="350.0" mnemonicParsing="false" onAction="#vybratB" prefHeight="50.0" prefWidth="240.0" styleClass="startovaciBtn" stylesheets="@stylec.css" text="B" textFill="#11c1f3" />
+      <Button fx:id="moznostC" layoutX="122.0" layoutY="407.0" mnemonicParsing="false" onAction="#vybratC" prefHeight="50.0" prefWidth="240.0" styleClass="startovaciBtn" stylesheets="@stylec.css" text="C" textFill="#11c1f3" />
+      <Button fx:id="moznostD" layoutX="402.0" layoutY="407.0" mnemonicParsing="false" onAction="#vybratD" prefHeight="50.0" prefWidth="240.0" styleClass="startovaciBtn" stylesheets="@stylec.css" text="D" textFill="#11c1f3" />
+      <Button fx:id="zpetBtn" layoutX="19.0" layoutY="480.0" mnemonicParsing="false" onAction="#zpatkyNaVyber" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Zpět" textFill="#11c1f3" />
+      <Button fx:id="genOtazBtn" layoutX="319.0" layoutY="480.0" mnemonicParsing="false" onAction="#vygenerovatOtazecku" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Vygenerovat Otázku" textFill="#11c1f3" />
+      <Label layoutX="122.0" layoutY="218.0" text="Zkoušený Student" textFill="#11c1f3" />
+      <Label layoutX="121.0" layoutY="250.0" text="Číslo Otázky" textFill="#11c1f3" />
+      <Label layoutX="122.0" layoutY="280.0" text="Procentuální Úspěšnost" textFill="#11c1f3" />
+      <Label layoutX="122.0" layoutY="309.0" text="Zodpovězené Otázky" textFill="#11c1f3" />
+      <Label fx:id="jmenoLbl" layoutX="402.0" layoutY="218.0" textFill="#11c1f3" />
+      <Label fx:id="cisloOtazkyLbl" layoutX="402.0" layoutY="250.0" textFill="#11c1f3" />
+      <Label fx:id="bodyLbl" layoutX="402.0" layoutY="280.0" textFill="#11c1f3" />
+      <Label fx:id="zodpovezeneLbl" layoutX="402.0" layoutY="309.0" textFill="#11c1f3" />
+      <Button fx:id="ukoncitBtn" layoutX="681.0" layoutY="480.0" mnemonicParsing="false" onAction="#ukoncitZkouseni" styleClass="startovaciBtn" stylesheets="@stylec.css" text="Ukončit" textFill="#11c1f3" />
+      <Label layoutX="122.0" layoutY="333.0" text="Zkoušený Předmět" textFill="#11c1f3" />
+      <Label fx:id="predmetLbl" layoutX="402.0" layoutY="325.0" text="predmet" textFill="#11c1f3" />
+   </children>
+</AnchorPane>
